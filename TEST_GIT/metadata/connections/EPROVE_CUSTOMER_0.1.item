@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DatabaseConnection AdditionalParams="" DatabaseType="Microsoft SQL Server" DatasourceName="" DbmsId="id_MSSQL" DriverClass="net.sourceforge.jtds.jdbc.Driver" FileFieldName="" Password="enc:system.encryption.key.v1:kzX5lbxPyRUNm8jzgfL2qKQztrPYIieCipjHLX7RS+ldCb05cBI=" Port="1433" ProductId="SQL_SERVER" SID="EPROVE_CUSTOMERS" SQLMode="false" ServerName="10.2.100.43" SqlSynthax="SQL Syntax" StandardSQL="true" StringQuote="EPROVE_CUSTOMERS&quot;" URL="jdbc:jtds:sqlserver://10.2.100.43:1433/EPROVE_CUSTOMERS;" UiSchema="dbo" Username="talend" dataPackage="_G1d68J42EeeHloPbqWDdDg" id="_Mqc4sJ4zEeeHloPbqWDdDg" label="EPROVE_CUSTOMER" name="EPROVE_CUSTOMER" xmi:id="_gbqZYJ4zEeeHloPbqWDdDg">
+    <taggedValue tag="Is Conn Need Reload" value="true" xmi:id="_gbqZYZ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="package filter" value="" xmi:id="_gcgt8J4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="Status" value="" xmi:id="_gchVAJ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="Version" value="0.1" xmi:id="_gchVAZ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="Purpose" value="" xmi:id="_gchVAp4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="Description" value="" xmi:id="_gchVA54zEeeHloPbqWDdDg"/>
+    <taggedValue tag="Author" value="" xmi:id="_gchVBJ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="otherParameter" xmi:id="_gchVBZ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="DB ProductName" value="Microsoft SQL Server" xmi:id="_gerRIJ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="DB ProductVersion" value="12.00.5000" xmi:id="_gerRIZ4zEeeHloPbqWDdDg"/>
+    <taggedValue tag="DB IdentifierQuoteString" value="&quot;" xmi:id="_gerRIp4zEeeHloPbqWDdDg"/>
+    <parameters key="CONN_PARA_KEY_USERNAME" value="talend" xmi:id="_gbqZYp4zEeeHloPbqWDdDg"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog dataManager="_gbqZYJ4zEeeHloPbqWDdDg" name="EPROVE_CUSTOMERS" xmi:id="_G1d68J42EeeHloPbqWDdDg">
+    <ownedElement name="dbo" xmi:id="_G1d68Z42EeeHloPbqWDdDg" xsi:type="orgomg.cwm.resource.relational:Schema">
+      <ownedElement id="_FZsggJ42EeeHloPbqWDdDg" label="SFDC_Extract_LastRun" name="SFDC_Extract_LastRun" tableType="TABLE" xmi:id="_G1d68p42EeeHloPbqWDdDg" xsi:type="relational:TdTable">
+        <taggedValue tag="Comment" value="" xmi:id="_G1d68542EeeHloPbqWDdDg"/>
+        <feature label="AccountLastRunDate" length="23" name="AccountLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d69J42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d69Z42EeeHloPbqWDdDg"/>
+          <initialValue body="'('1/1/1900')'" language="COLUMN_DEF" xmi:id="_G1d69p42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d69542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="ContactLastRunDate" length="23" name="ContactLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d6-J42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d6-Z42EeeHloPbqWDdDg"/>
+          <initialValue body="'('1/1/1900')'" language="COLUMN_DEF" xmi:id="_G1d6-p42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d6-542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="PasscodeLastDate" length="23" name="PasscodeLastDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d6_J42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d6_Z42EeeHloPbqWDdDg"/>
+          <initialValue body="'('1/1/1900')'" language="COLUMN_DEF" xmi:id="_G1d6_p42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d6_542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="AgencyLastRunDate" length="23" name="AgencyLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d7AJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7AZ42EeeHloPbqWDdDg"/>
+          <initialValue body="'('1/1/1900')'" language="COLUMN_DEF" xmi:id="_G1d7Ap42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d7A542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="RelationshipLastRunDate" length="23" name="RelationshipLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d7BJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7BZ42EeeHloPbqWDdDg"/>
+          <initialValue body="'('1/1/1900')'" language="COLUMN_DEF" xmi:id="_G1d7Bp42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d7B542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="AccreditLastRunDate" length="23" name="AccreditLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d7CJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7CZ42EeeHloPbqWDdDg"/>
+          <initialValue body="'('1/1/1900')'" language="COLUMN_DEF" xmi:id="_G1d7Cp42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d7C542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="IsRunning" length="1" name="IsRunning" sourceType="BIT" talendType="id_Boolean" xmi:id="_G1d7DJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7DZ42EeeHloPbqWDdDg"/>
+          <initialValue body="'((0))'" language="COLUMN_DEF" xmi:id="_G1d7Dp42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="-7" name="BIT" nullable="columnNullable" xmi:id="_G1d7D542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="AccreditDateLastRunDate" length="23" name="AccreditDateLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d7EJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7EZ42EeeHloPbqWDdDg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_G1d7Ep42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d7E542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="AccrLogNoteLastRunDate" length="23" name="AccrLogNoteLastRunDate" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d7FJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7FZ42EeeHloPbqWDdDg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_G1d7Fp42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d7F542EeeHloPbqWDdDg"/>
+        </feature>
+        <feature label="DesignationLastRun" length="23" name="DesignationLastRun" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" talendType="id_Date" xmi:id="_G1d7GJ42EeeHloPbqWDdDg" xsi:type="relational:TdColumn">
+          <taggedValue tag="Comment" value="" xmi:id="_G1d7GZ42EeeHloPbqWDdDg"/>
+          <initialValue language="COLUMN_DEF" xmi:id="_G1d7Gp42EeeHloPbqWDdDg" xsi:type="relational:TdExpression"/>
+          <sqlDataType javaDataType="93" name="DATETIME" nullable="columnNullable" numericPrecision="3" xmi:id="_G1d7G542EeeHloPbqWDdDg"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_784ee3c4-f36b-4e46-bd97-ff6058b78498"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>eX2Zgj3IfvhPCzg4144RiN2IuwNbi0Wai+K0QqlB7N5YN3nSj6arK8Mr5VTPlnUPPlduC8BtkfZd&#13;
+f7cMAZCO6Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e7414a19-002e-49bd-92f8-3d69f8a6ddb5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>urqNQNRX+6lUlFJgsDFwQ886BbY/9fhy6BXhC1/AWgCH3qc21fEveimoPe4iZ3CnJ47f1YFf05U0&#13;
+4uariEwPjg==</DigestValue></Reference></SignedInfo><SignatureValue>ZpUlKYEbFPTJDfO1GpxntC5KeRHBX1y5R35o5ZIiY1N9ks1czseyWLljn/tkWRzIddl7gE9lkBK9&#13;
+1sBlbnXrA7DWDpVxylVZTpuLyQ8GgNrC9Oxl5k83ojA6PxwytV+BsjOr8F/bd8VAbRSbjLgdZbhZ&#13;
+JON57sWplGcGFNuRl3DKQM2s2+HnrwFDeM8ysSu4cuc8KTi564Pjamc0mNug4gmVfXCKSdwIrry9&#13;
+zNuN7c/fQaLTEYkXMJnc5X+fFks7FM1smRPWvwDd3TMGIa+PJX2ZN+TjLAgH++3wadd/aTJspn1M&#13;
+jEX/Idf7a5ksRFW6gFqVft0FuqCrXN5BuVkMDA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e7414a19-002e-49bd-92f8-3d69f8a6ddb5" Target="#_784ee3c4-f36b-4e46-bd97-ff6058b78498"><Timestamp>2020-10-15 20:34:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
