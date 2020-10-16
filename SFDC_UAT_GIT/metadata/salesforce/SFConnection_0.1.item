@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendGenericMetadata:GenericConnection xmlns:TalendGenericMetadata="http://www.talend.org/genericmetadata" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" compProperties="{&quot;@id&quot;:9,&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties&quot;,&quot;__version&quot;:4,&quot;endpoint&quot;:{&quot;@id&quot;:18,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;https://test.salesforce.com/services/Soap/u/37.0&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;endpoint&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;endpoint&quot;,&quot;tags&quot;:null},&quot;name&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;SFConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;name&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;name&quot;,&quot;tags&quot;:null},&quot;loginType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;Basic&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;loginType&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;Basic&quot;},{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;OAuth&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties.LoginType&quot;,&quot;name&quot;:&quot;loginType&quot;,&quot;tags&quot;:null},&quot;bulkConnection&quot;:{&quot;@id&quot;:17,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;bulkConnection&quot;,&quot;tags&quot;:null},&quot;reuseSession&quot;:{&quot;@id&quot;:16,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;reuseSession&quot;,&quot;tags&quot;:null},&quot;sessionDirectory&quot;:{&quot;@id&quot;:15,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;sessionDirectory&quot;,&quot;tags&quot;:null},&quot;needCompression&quot;:{&quot;@id&quot;:14,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;needCompression&quot;,&quot;tags&quot;:null},&quot;timeout&quot;:{&quot;@id&quot;:13,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;int&quot;,&quot;value&quot;:60000},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;timeout&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;timeout&quot;,&quot;tags&quot;:null},&quot;httpTraceMessage&quot;:{&quot;@id&quot;:12,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;httpTraceMessage&quot;,&quot;tags&quot;:null},&quot;httpChunked&quot;:{&quot;@id&quot;:11,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:true},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;httpChunked&quot;,&quot;tags&quot;:null},&quot;clientId&quot;:{&quot;@id&quot;:10,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientId&quot;,&quot;tags&quot;:null},&quot;testConnection&quot;:{&quot;formtoShow&quot;:null,&quot;name&quot;:&quot;testConnection&quot;,&quot;tags&quot;:null},&quot;advanced&quot;:{&quot;formtoShow&quot;:{&quot;subtitle&quot;:null,&quot;properties&quot;:{&quot;@ref&quot;:9},&quot;widgetMap&quot;:{&quot;endpoint&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:1,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:18},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;apiVersion&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:1,&quot;order&quot;:2,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@id&quot;:8,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:&quot;47.0&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;apiVersion&quot;,&quot;tags&quot;:null},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;bulkConnection&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:2,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:true,&quot;content&quot;:{&quot;@ref&quot;:17},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;reuseSession&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:3,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:true,&quot;content&quot;:{&quot;@ref&quot;:16},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;sessionDirectory&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:4,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.directory&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:15},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;needCompression&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:5,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:14},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;httpTraceMessage&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:6,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:12},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;httpChunked&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:7,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:11},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;clientId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:8,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:10},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;timeout&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:9,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:13},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;proxy&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:10,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Form&quot;,&quot;subtitle&quot;:null,&quot;properties&quot;:{&quot;@id&quot;:7,&quot;@type&quot;:&quot;org.talend.components.common.ProxyProperties&quot;,&quot;useProxy&quot;:{&quot;@id&quot;:6,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;useProxy&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useProxy&quot;,&quot;tags&quot;:null},&quot;host&quot;:{&quot;@id&quot;:5,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;host&quot;,&quot;tags&quot;:null},&quot;port&quot;:{&quot;@id&quot;:4,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;port&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;@id&quot;:3,&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@id&quot;:2,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@id&quot;:1,&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;name&quot;:&quot;proxy&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;widgetMap&quot;:{&quot;useProxy&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:1,&quot;order&quot;:1,&quot;hidden&quot;:false,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:true,&quot;content&quot;:{&quot;@ref&quot;:6},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;host&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:2,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:5},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;port&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:3,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:4},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;userPassword&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:4,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Form&quot;,&quot;subtitle&quot;:null,&quot;properties&quot;:{&quot;@ref&quot;:3},&quot;widgetMap&quot;:{&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:1,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.default&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:2},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.presentation.Widget&quot;,&quot;row&quot;:2,&quot;order&quot;:1,&quot;hidden&quot;:true,&quot;widgetType&quot;:&quot;widget.type.hidden.text&quot;,&quot;longRunning&quot;:false,&quot;deemphasize&quot;:false,&quot;callBeforeActivate&quot;:false,&quot;callBeforePresent&quot;:false,&quot;callValidate&quot;:false,&quot;callAfter&quot;:false,&quot;content&quot;:{&quot;@ref&quot;:1},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}}},&quot;cancelable&quot;:false,&quot;originalValues&quot;:null,&quot;callBeforeFormPresent&quot;:false,&quot;callAfterFormBack&quot;:false,&quot;callAfterFormNext&quot;:false,&quot;callAfterFormFinish&quot;:false,&quot;allowBack&quot;:false,&quot;allowForward&quot;:false,&quot;allowFinish&quot;:false,&quot;refreshUI&quot;:true,&quot;name&quot;:&quot;Main&quot;,&quot;tags&quot;:null},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}}},&quot;cancelable&quot;:false,&quot;originalValues&quot;:null,&quot;callBeforeFormPresent&quot;:false,&quot;callAfterFormBack&quot;:false,&quot;callAfterFormNext&quot;:false,&quot;callAfterFormFinish&quot;:false,&quot;allowBack&quot;:false,&quot;allowForward&quot;:false,&quot;allowFinish&quot;:false,&quot;refreshUI&quot;:true,&quot;name&quot;:&quot;Main&quot;,&quot;tags&quot;:null},&quot;configurationValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;}}},&quot;cancelable&quot;:false,&quot;originalValues&quot;:null,&quot;callBeforeFormPresent&quot;:false,&quot;callAfterFormBack&quot;:false,&quot;callAfterFormNext&quot;:false,&quot;callAfterFormFinish&quot;:false,&quot;allowBack&quot;:false,&quot;allowForward&quot;:false,&quot;allowFinish&quot;:false,&quot;refreshUI&quot;:true,&quot;name&quot;:&quot;Advanced&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;advanced&quot;,&quot;tags&quot;:null},&quot;oauth2FlowType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;Implicit_Flow&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;JWT_Flow&quot;},{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;Implicit_Flow&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;oauth2FlowType&quot;,&quot;tags&quot;:null},&quot;oauth&quot;:{&quot;clientId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientId&quot;,&quot;tags&quot;:null},&quot;clientSecret&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientSecret&quot;,&quot;tags&quot;:null},&quot;callbackHost&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;callbackHost&quot;,&quot;tags&quot;:null},&quot;callbackPort&quot;:{&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;callbackPort&quot;,&quot;tags&quot;:null},&quot;tokenFile&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;tokenFile&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;oauth&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;oauth2JwtFlow&quot;:{&quot;issuer&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;issuer&quot;,&quot;tags&quot;:null},&quot;subject&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;subject&quot;,&quot;tags&quot;:null},&quot;expirationTime&quot;:{&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;expirationTime&quot;,&quot;tags&quot;:null},&quot;keyStore&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;keyStore&quot;,&quot;tags&quot;:null},&quot;keyStorePassword&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;keyStorePassword&quot;,&quot;tags&quot;:null},&quot;certificateAlias&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;certificateAlias&quot;,&quot;tags&quot;:null},&quot;audience&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;HIDDEN&quot;}]},&quot;storedValue&quot;:&quot;https://login.salesforce.com&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;audience&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;oauth2JwtFlow&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;apiVersion&quot;:{&quot;@ref&quot;:8},&quot;userPassword&quot;:{&quot;securityKey&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:G/HjLgWHwsePL0JwQnFw+oGQUqd7BSp67nLAWQ==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;securityKey&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;securityKey&quot;,&quot;tags&quot;:null},&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;talend@advanc-ed.org.uatfull&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;userId&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:ubuc3IAI8azRt4upTxNqIVL+ShIWxMgOi6I78TASNT+7VIEeTGFdv4I8V7wafWKedh3bQXOPqzqsP0iGkA==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;password&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;proxy&quot;:{&quot;@ref&quot;:7},&quot;referencedComponent&quot;:{&quot;referenceType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;THIS_COMPONENT&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_TYPE&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_INSTANCE&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties&lt;P extends org.talend.daikon.properties.Properties&gt;.ReferenceType&quot;,&quot;name&quot;:&quot;referenceType&quot;,&quot;tags&quot;:null},&quot;componentInstanceId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;componentInstanceId&quot;,&quot;tags&quot;:null},&quot;referenceDefinitionName&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;tSalesforceConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;referenceDefinitionName&quot;,&quot;tags&quot;:null},&quot;reference&quot;:null,&quot;name&quot;:&quot;referencedComponent&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;org.talend.daikon.properties.PropertiesImpl.name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null}" label="SFConnection" name="SFConnection" xmi:id="_y3_WIA9dEeulIr74Qw0vMA" xmi:version="2.0">
+  <ownedElement id="_acKm4YwxEeer1cOXJ-J-GQ" label="Accreditation_Log_Note__c" name="Accreditation_Log_Note__c" xmi:id="_4E6uMl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataTable">
+    <taggedValue tag="component.json.serialized" value="{&quot;@id&quot;:1,&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceModuleProperties&quot;,&quot;connection&quot;:{&quot;__version&quot;:4,&quot;endpoint&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;https://test.salesforce.com/services/Soap/u/37.0&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;endpoint&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;endpoint&quot;,&quot;tags&quot;:null},&quot;name&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;SFConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;name&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;name&quot;,&quot;tags&quot;:null},&quot;loginType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;Basic&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;loginType&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;Basic&quot;},{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;OAuth&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties.LoginType&quot;,&quot;name&quot;:&quot;loginType&quot;,&quot;tags&quot;:null},&quot;bulkConnection&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;bulkConnection&quot;,&quot;tags&quot;:null},&quot;reuseSession&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;reuseSession&quot;,&quot;tags&quot;:null},&quot;sessionDirectory&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;sessionDirectory&quot;,&quot;tags&quot;:null},&quot;needCompression&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;needCompression&quot;,&quot;tags&quot;:null},&quot;timeout&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;int&quot;,&quot;value&quot;:60000},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;timeout&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;timeout&quot;,&quot;tags&quot;:null},&quot;httpTraceMessage&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;httpTraceMessage&quot;,&quot;tags&quot;:null},&quot;httpChunked&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:true},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;httpChunked&quot;,&quot;tags&quot;:null},&quot;clientId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientId&quot;,&quot;tags&quot;:null},&quot;testConnection&quot;:{&quot;formtoShow&quot;:null,&quot;name&quot;:&quot;testConnection&quot;,&quot;tags&quot;:null},&quot;advanced&quot;:{&quot;formtoShow&quot;:null,&quot;name&quot;:&quot;advanced&quot;,&quot;tags&quot;:null},&quot;oauth2FlowType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;Implicit_Flow&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;JWT_Flow&quot;},{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;Implicit_Flow&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;oauth2FlowType&quot;,&quot;tags&quot;:null},&quot;oauth&quot;:{&quot;clientId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientId&quot;,&quot;tags&quot;:null},&quot;clientSecret&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientSecret&quot;,&quot;tags&quot;:null},&quot;callbackHost&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;callbackHost&quot;,&quot;tags&quot;:null},&quot;callbackPort&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;callbackPort&quot;,&quot;tags&quot;:null},&quot;tokenFile&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;tokenFile&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;oauth&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;oauth2JwtFlow&quot;:{&quot;issuer&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;issuer&quot;,&quot;tags&quot;:null},&quot;subject&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;subject&quot;,&quot;tags&quot;:null},&quot;expirationTime&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;expirationTime&quot;,&quot;tags&quot;:null},&quot;keyStore&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;keyStore&quot;,&quot;tags&quot;:null},&quot;keyStorePassword&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;keyStorePassword&quot;,&quot;tags&quot;:null},&quot;certificateAlias&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;certificateAlias&quot;,&quot;tags&quot;:null},&quot;audience&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;https://login.salesforce.com&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;audience&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;oauth2JwtFlow&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;apiVersion&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;47.0&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;apiVersion&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;securityKey&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:IPzU7M/eIpxU4ItjoiYV1eYejWzfQV1MpOZ4Kg==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;securityKey&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;securityKey&quot;,&quot;tags&quot;:null},&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;talend@advanc-ed.org.uatfull&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;userId&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:Mw/hYcDi8Ej3LOc3blMqN7ljCcn86I7g7Y6JibVQiTu1A1VI2y+ULhC6+QfgZNwua3gGbu7Jq2Q2dAXadg==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;password&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;proxy&quot;:{&quot;useProxy&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;useProxy&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useProxy&quot;,&quot;tags&quot;:null},&quot;host&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;host&quot;,&quot;tags&quot;:null},&quot;port&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;port&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;name&quot;:&quot;proxy&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;referencedComponent&quot;:{&quot;referenceType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;THIS_COMPONENT&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_TYPE&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_INSTANCE&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties&lt;P extends org.talend.daikon.properties.Properties&gt;.ReferenceType&quot;,&quot;name&quot;:&quot;referenceType&quot;,&quot;tags&quot;:null},&quot;componentInstanceId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;componentInstanceId&quot;,&quot;tags&quot;:null},&quot;referenceDefinitionName&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;tSalesforceConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;referenceDefinitionName&quot;,&quot;tags&quot;:null},&quot;reference&quot;:null,&quot;name&quot;:&quot;referencedComponent&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;org.talend.daikon.properties.PropertiesImpl.name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;moduleName&quot;:{&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;Accreditation_Log_Note__c&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;moduleName&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;moduleName&quot;,&quot;tags&quot;:null},&quot;schemaListener&quot;:null,&quot;main&quot;:{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceModuleProperties$1&quot;,&quot;this$0&quot;:{&quot;@ref&quot;:1},&quot;schema&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.SchemaProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;org.apache.avro.Schema&quot;,&quot;name&quot;:&quot;schema&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;main&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;name&quot;:&quot;Accreditation_Log_Note__c&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null}" xmi:id="_y3eYwA9dEeulIr74Qw0vMA"/>
+    <taggedValue tag="component.property.schema" value="main.schema" xmi:id="_y3eYwQ9dEeulIr74Qw0vMA"/>
+    <feature label="Account_Name__c" length="1300" talendType="id_String" xmi:id="_4E6uM1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uNF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Account__c" length="18" talendType="id_String" xmi:id="_4E6uNV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uNl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Status__c" length="255" talendType="id_String" xmi:id="_4E6uN1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uOF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Org_Status__c" length="1300" talendType="id_String" xmi:id="_4E6uOV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uOl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Ratification_Meeting__c" length="18" talendType="id_String" xmi:id="_4E6uO1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uPF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Status_Effective_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6uPV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uPl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Asset__c" length="18" talendType="id_String" xmi:id="_4E6uP1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uQF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="CreatedById" length="18" nullable="false" talendType="id_String" xmi:id="_4E6uQV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uQl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="CreatedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6uQ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uRF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Customer_Number__c" length="1300" talendType="id_String" xmi:id="_4E6uRV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uRl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Effective_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6uR1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uSF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Expiration_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6uSV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uSl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Id" length="18" nullable="false" talendType="id_String" xmi:id="_4E6uS1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uTF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="IsDeleted" nullable="false" talendType="id_Boolean" xmi:id="_4E6uTV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uTl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastActivityDate" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6uT1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uUF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastModifiedById" length="18" nullable="false" talendType="id_String" xmi:id="_4E6uUV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uUl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastModifiedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6uU1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uVF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastReferencedDate" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6uVV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uVl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastViewedDate" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6uV1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uWF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Log_Date__c" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6uWV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uWl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Log_Note_Type__c" length="255" talendType="id_String" xmi:id="_4E6uW1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uXF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Name" length="80" nullable="false" talendType="id_String" xmi:id="_4E6uXV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uXl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Notes__c" length="32768" talendType="id_String" xmi:id="_4E6uX1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uYF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="OMS_Approval__c" length="255" talendType="id_String" xmi:id="_4E6uYV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uYl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis_Note_Created2__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6uY1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uZF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis_Note_Id__c" length="18" talendType="id_Double" xmi:id="_4E6uZV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uZl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Org_Status_Value__c" length="255" talendType="id_String" xmi:id="_4E6uZ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uaF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="OwnerId" length="18" nullable="false" talendType="id_String" xmi:id="_4E6uaV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ual-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Processed__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6ua1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ubF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Ratification_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6ubV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ubl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Ratification_Note__c" length="255" talendType="id_String" xmi:id="_4E6ub1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ucF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Ratified_Flag__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6ucV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ucl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Rec_Ratification_Meeting__c" length="18" talendType="id_String" xmi:id="_4E6uc1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6udF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Accreditation_Log_Note__c" length="18" talendType="id_String" xmi:id="_4E6udV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6udl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Accreditation_Status__c" length="255" talendType="id_String" xmi:id="_4E6ud1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ueF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="RecordTypeId" length="18" talendType="id_String" xmi:id="_4E6ueV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uel-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Status_Reason__c" length="255" talendType="id_String" xmi:id="_4E6ue1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ufF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Status_Type__c" length="255" talendType="id_String" xmi:id="_4E6ufV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ufl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="SystemModstamp" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6uf1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ugF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Upcoming_Ratification_Meeting__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6ugV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ugl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="oasis_user_id__c" length="1300" talendType="id_String" xmi:id="_4E6ug1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uhF-6EeqWwabbsC8AGw"/>
+    </feature>
+  </ownedElement>
+  <ownedElement id="_3tzOsV-6EeqWwabbsC8AGw" label="Account" name="Account" xmi:id="_4E6uhl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataTable">
+    <taggedValue tag="component.json.serialized" value="{&quot;@id&quot;:1,&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceModuleProperties&quot;,&quot;connection&quot;:{&quot;__version&quot;:4,&quot;endpoint&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;https://test.salesforce.com/services/Soap/u/37.0&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;endpoint&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;endpoint&quot;,&quot;tags&quot;:null},&quot;name&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;SFConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;name&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;name&quot;,&quot;tags&quot;:null},&quot;loginType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;Basic&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;loginType&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;Basic&quot;},{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties$LoginType&quot;,&quot;name&quot;:&quot;OAuth&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.salesforce.SalesforceConnectionProperties.LoginType&quot;,&quot;name&quot;:&quot;loginType&quot;,&quot;tags&quot;:null},&quot;bulkConnection&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;bulkConnection&quot;,&quot;tags&quot;:null},&quot;reuseSession&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;reuseSession&quot;,&quot;tags&quot;:null},&quot;sessionDirectory&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;sessionDirectory&quot;,&quot;tags&quot;:null},&quot;needCompression&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;needCompression&quot;,&quot;tags&quot;:null},&quot;timeout&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;int&quot;,&quot;value&quot;:60000},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;timeout&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;timeout&quot;,&quot;tags&quot;:null},&quot;httpTraceMessage&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;httpTraceMessage&quot;,&quot;tags&quot;:null},&quot;httpChunked&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:true},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;httpChunked&quot;,&quot;tags&quot;:null},&quot;clientId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientId&quot;,&quot;tags&quot;:null},&quot;testConnection&quot;:{&quot;formtoShow&quot;:null,&quot;name&quot;:&quot;testConnection&quot;,&quot;tags&quot;:null},&quot;advanced&quot;:{&quot;formtoShow&quot;:null,&quot;name&quot;:&quot;advanced&quot;,&quot;tags&quot;:null},&quot;oauth2FlowType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;Implicit_Flow&quot;},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;JWT_Flow&quot;},{&quot;@type&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;Implicit_Flow&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.common.oauth.OAuth2FlowType&quot;,&quot;name&quot;:&quot;oauth2FlowType&quot;,&quot;tags&quot;:null},&quot;oauth&quot;:{&quot;clientId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientId&quot;,&quot;tags&quot;:null},&quot;clientSecret&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;clientSecret&quot;,&quot;tags&quot;:null},&quot;callbackHost&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;callbackHost&quot;,&quot;tags&quot;:null},&quot;callbackPort&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;callbackPort&quot;,&quot;tags&quot;:null},&quot;tokenFile&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;tokenFile&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;oauth&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;oauth2JwtFlow&quot;:{&quot;issuer&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;issuer&quot;,&quot;tags&quot;:null},&quot;subject&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;subject&quot;,&quot;tags&quot;:null},&quot;expirationTime&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;expirationTime&quot;,&quot;tags&quot;:null},&quot;keyStore&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;keyStore&quot;,&quot;tags&quot;:null},&quot;keyStorePassword&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;keyStorePassword&quot;,&quot;tags&quot;:null},&quot;certificateAlias&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;certificateAlias&quot;,&quot;tags&quot;:null},&quot;audience&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;https://login.salesforce.com&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;audience&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;oauth2JwtFlow&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;apiVersion&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;47.0&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;apiVersion&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;securityKey&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:5Hu8tQRPwhtp8GlsX6IyzJfuKY3v2XMooUD9ZQ==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;securityKey&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;securityKey&quot;,&quot;tags&quot;:null},&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;talend@advanc-ed.org.uatfull&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;userId&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:&quot;enc:system.encryption.key.v1:C0dpldA/Cf8iaQ6r3eRvXdbSSSPnl9fy7f8iCoyp9jI7BaVWOx/xRYF6RAdPfJAbMJ5KH/uycaGZ4/jexg==&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;password&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;proxy&quot;:{&quot;useProxy&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;useProxy&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useProxy&quot;,&quot;tags&quot;:null},&quot;host&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;host&quot;,&quot;tags&quot;:null},&quot;port&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:1,&quot;occurMaxTimes&quot;:1,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Integer&quot;,&quot;name&quot;:&quot;port&quot;,&quot;tags&quot;:null},&quot;userPassword&quot;:{&quot;useAuth&quot;:{&quot;flags&quot;:null,&quot;storedValue&quot;:{&quot;@type&quot;:&quot;boolean&quot;,&quot;value&quot;:false},&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.Boolean&quot;,&quot;name&quot;:&quot;useAuth&quot;,&quot;tags&quot;:null},&quot;userId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;userId&quot;,&quot;tags&quot;:null},&quot;password&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:{&quot;@type&quot;:&quot;java.util.RegularEnumSet&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;ENCRYPT&quot;},{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.Property$Flags&quot;,&quot;name&quot;:&quot;SUPPRESS_LOGGING&quot;}]},&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;password&quot;,&quot;tags&quot;:null},&quot;needSwitch&quot;:false,&quot;name&quot;:&quot;userPassword&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;name&quot;:&quot;proxy&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;referencedComponent&quot;:{&quot;referenceType&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.EnumProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:{&quot;@type&quot;:&quot;java.util.Arrays$ArrayList&quot;,&quot;@items&quot;:[{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;THIS_COMPONENT&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_TYPE&quot;},{&quot;@type&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties$ReferenceType&quot;,&quot;name&quot;:&quot;COMPONENT_INSTANCE&quot;}]},&quot;currentType&quot;:&quot;org.talend.components.api.properties.ComponentReferenceProperties&lt;P extends org.talend.daikon.properties.Properties&gt;.ReferenceType&quot;,&quot;name&quot;:&quot;referenceType&quot;,&quot;tags&quot;:null},&quot;componentInstanceId&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;componentInstanceId&quot;,&quot;tags&quot;:null},&quot;referenceDefinitionName&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.StringProperty&quot;,&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;tSalesforceConnection&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;referenceDefinitionName&quot;,&quot;tags&quot;:null},&quot;reference&quot;:null,&quot;name&quot;:&quot;referencedComponent&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;org.talend.daikon.properties.PropertiesImpl.name&quot;:&quot;connection&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;moduleName&quot;:{&quot;possibleValues2&quot;:null,&quot;flags&quot;:null,&quot;storedValue&quot;:&quot;Account&quot;,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;,&quot;REPOSITORY_VALUE&quot;:&quot;moduleName&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;java.lang.String&quot;,&quot;name&quot;:&quot;moduleName&quot;,&quot;tags&quot;:null},&quot;schemaListener&quot;:null,&quot;main&quot;:{&quot;@type&quot;:&quot;org.talend.components.salesforce.SalesforceModuleProperties$1&quot;,&quot;this$0&quot;:{&quot;@ref&quot;:1},&quot;schema&quot;:{&quot;@type&quot;:&quot;org.talend.daikon.properties.property.SchemaProperty&quot;,&quot;flags&quot;:null,&quot;storedValue&quot;:null,&quot;storedDefaultValue&quot;:null,&quot;children&quot;:{&quot;@type&quot;:&quot;java.util.ArrayList&quot;},&quot;taggedValues&quot;:{&quot;@type&quot;:&quot;java.util.HashMap&quot;},&quot;size&quot;:-1,&quot;occurMinTimes&quot;:0,&quot;occurMaxTimes&quot;:0,&quot;precision&quot;:0,&quot;pattern&quot;:null,&quot;nullable&quot;:false,&quot;possibleValues&quot;:null,&quot;currentType&quot;:&quot;org.apache.avro.Schema&quot;,&quot;name&quot;:&quot;schema&quot;,&quot;tags&quot;:null},&quot;name&quot;:&quot;main&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null},&quot;name&quot;:&quot;Account&quot;,&quot;validationResult&quot;:null,&quot;tags&quot;:null}" xmi:id="_y3hcEA9dEeulIr74Qw0vMA"/>
+    <taggedValue tag="component.property.schema" value="main.schema" xmi:id="_y3hcEQ9dEeulIr74Qw0vMA"/>
+    <feature label="Id" length="18" nullable="false" talendType="id_String" xmi:id="_4E6uh1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uiF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="IsDeleted" nullable="false" talendType="id_Boolean" xmi:id="_4E6uiV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uil-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="MasterRecordId" length="18" talendType="id_String" xmi:id="_4E6ui1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ujF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Name" length="255" nullable="false" talendType="id_String" xmi:id="_4E6ujV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ujl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Type" length="40" talendType="id_String" xmi:id="_4E6uj1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ukF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="RecordTypeId" length="18" talendType="id_String" xmi:id="_4E6ukV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ukl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ParentId" length="18" talendType="id_String" xmi:id="_4E6uk1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ulF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingStreet" length="255" talendType="id_String" xmi:id="_4E6ulV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6ull-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingCity" length="40" talendType="id_String" xmi:id="_4E6ul1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6umF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingState" length="80" talendType="id_String" xmi:id="_4E6umV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uml-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingPostalCode" length="20" talendType="id_String" xmi:id="_4E6um1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6unF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingCountry" length="80" talendType="id_String" xmi:id="_4E6unV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6unl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingStateCode" length="10" talendType="id_String" xmi:id="_4E6un1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uoF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingCountryCode" length="10" talendType="id_String" xmi:id="_4E6uoV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uol-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingLatitude" length="18" talendType="id_Double" xmi:id="_4E6uo1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6upF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingLongitude" length="18" talendType="id_Double" xmi:id="_4E6upV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6upl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingGeocodeAccuracy" length="40" talendType="id_String" xmi:id="_4E6up1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uqF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BillingAddress" talendType="id_String" xmi:id="_4E6uqV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uql-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingStreet" length="255" talendType="id_String" xmi:id="_4E6uq1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6urF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingCity" length="40" talendType="id_String" xmi:id="_4E6urV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6url-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingState" length="80" talendType="id_String" xmi:id="_4E6ur1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6usF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingPostalCode" length="20" talendType="id_String" xmi:id="_4E6usV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6usl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingCountry" length="80" talendType="id_String" xmi:id="_4E6us1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6utF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingStateCode" length="10" talendType="id_String" xmi:id="_4E6utV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6utl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingCountryCode" length="10" talendType="id_String" xmi:id="_4E6ut1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uuF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingLatitude" length="18" talendType="id_Double" xmi:id="_4E6uuV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uul-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingLongitude" length="18" talendType="id_Double" xmi:id="_4E6uu1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uvF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingGeocodeAccuracy" length="40" talendType="id_String" xmi:id="_4E6uvV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uvl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ShippingAddress" talendType="id_String" xmi:id="_4E6uv1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uwF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Phone" length="40" talendType="id_String" xmi:id="_4E6uwV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uwl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Fax" length="40" talendType="id_String" xmi:id="_4E6uw1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uxF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Website" length="255" talendType="id_String" xmi:id="_4E6uxV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uxl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PhotoUrl" length="255" talendType="id_String" xmi:id="_4E6ux1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uyF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Industry" length="40" talendType="id_String" xmi:id="_4E6uyV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uyl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AnnualRevenue" length="18" talendType="id_Double" xmi:id="_4E6uy1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uzF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="NumberOfEmployees" talendType="id_Integer" xmi:id="_4E6uzV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6uzl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Description" length="32000" talendType="id_String" xmi:id="_4E6uz1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u0F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="OwnerId" length="18" nullable="false" talendType="id_String" xmi:id="_4E6u0V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u0l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="CreatedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6u01-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u1F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="CreatedById" length="18" nullable="false" talendType="id_String" xmi:id="_4E6u1V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u1l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastModifiedDate" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6u11-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u2F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastModifiedById" length="18" nullable="false" talendType="id_String" xmi:id="_4E6u2V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u2l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="SystemModstamp" nullable="false" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6u21-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u3F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastActivityDate" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6u3V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u3l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastViewedDate" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6u31-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u4F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LastReferencedDate" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6u4V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u4l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Jigsaw" length="20" talendType="id_String" xmi:id="_4E6u41-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u5F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="JigsawCompanyId" length="20" talendType="id_String" xmi:id="_4E6u5V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u5l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AccountSource" length="40" talendType="id_String" xmi:id="_4E6u51-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u6F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="SicDesc" length="80" talendType="id_String" xmi:id="_4E6u6V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u6l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Region__c" length="1300" talendType="id_String" xmi:id="_4E6u61-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u7F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Balance__c" length="16" talendType="id_Double" xmi:id="_4E6u7V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u7l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="NCES_ID__c" length="255" talendType="id_String" xmi:id="_4E6u71-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u8F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis_Org_ID__c" length="255" talendType="id_String" xmi:id="_4E6u8V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u8l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Online_Reporting_ID__c" length="255" talendType="id_String" xmi:id="_4E6u81-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u9F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Status__c" length="255" talendType="id_String" xmi:id="_4E6u9V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u9l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Organization_Status__c" length="255" talendType="id_String" xmi:id="_4E6u91-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u-F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Gender__c" length="255" talendType="id_String" xmi:id="_4E6u-V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u-l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Locale__c" length="255" talendType="id_String" xmi:id="_4E6u-1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u_F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Student_to_Teacher_Ratio__c" length="18" talendType="id_Double" xmi:id="_4E6u_V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6u_l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Religious_Denomination__c" length="255" talendType="id_String" xmi:id="_4E6u_1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vAF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="School_Type__c" length="255" talendType="id_String" xmi:id="_4E6vAV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vAl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Enrollment__c" length="18" talendType="id_Double" xmi:id="_4E6vA1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vBF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Assets__c" length="18" talendType="id_Double" xmi:id="_4E6vBV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vBl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Equity__c" length="18" talendType="id_Double" xmi:id="_4E6vB1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vCF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Adults_in_Business_Training__c" length="18" talendType="id_Double" xmi:id="_4E6vCV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vCl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Adults_in_Full_Time_Programs__c" length="18" talendType="id_Double" xmi:id="_4E6vC1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vDF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Adults_in_Short_Term_Programs__c" length="18" talendType="id_Double" xmi:id="_4E6vDV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vDl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Job_Placement_Rate_Adult__c" length="3" talendType="id_Double" xmi:id="_4E6vD1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vEF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Liabilities__c" length="18" talendType="id_Double" xmi:id="_4E6vEV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vEl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Net_Income__c" length="18" talendType="id_Double" xmi:id="_4E6vE1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vFF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Pell_Participant__c" length="255" talendType="id_String" xmi:id="_4E6vFV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vFl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Magnet_School__c" length="255" talendType="id_String" xmi:id="_4E6vF1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vGF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Program_Completion_Rate_Adult__c" length="3" talendType="id_Double" xmi:id="_4E6vGV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vGl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Profit_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6vG1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vHF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Job_Placement_Rate_Secondary__c" length="3" talendType="id_Double" xmi:id="_4E6vHV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vHl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Program_Completion_Rate_Secondary__c" length="3" talendType="id_Double" xmi:id="_4E6vH1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vIF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Secondary_Students_in_Full_Time_Programs__c" length="18" talendType="id_Double" xmi:id="_4E6vIV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vIl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="State_License_Exam_Pass_Rate_Adult__c" length="3" talendType="id_Double" xmi:id="_4E6vI1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vJF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="State_License_Exam_Pass_Rate_Secondary__c" length="3" talendType="id_Double" xmi:id="_4E6vJV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vJl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Student_Loan_Default_Rate__c" length="3" talendType="id_Double" xmi:id="_4E6vJ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vKF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Student_Loan_Participant__c" length="255" talendType="id_String" xmi:id="_4E6vKV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vKl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Transfer_Rate__c" length="3" talendType="id_Double" xmi:id="_4E6vK1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vLF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Feed_to_Finance__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vLV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vLl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Jurisdiction__c" length="18" talendType="id_String" xmi:id="_4E6vL1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vMF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Alias__c" length="255" talendType="id_String" xmi:id="_4E6vMV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vMl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis2_Org_ID__c" length="255" talendType="id_String" xmi:id="_4E6vM1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vNF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Title_One__c" length="255" talendType="id_String" xmi:id="_4E6vNV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vNl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Grades__c" length="4099" precision="4" talendType="id_String" xmi:id="_4E6vN1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vOF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Years_in_Existence__c" length="18" talendType="id_Double" xmi:id="_4E6vOV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vOl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="School_Governance__c" length="255" talendType="id_String" xmi:id="_4E6vO1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vPF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Charter_Type__c" length="255" talendType="id_String" xmi:id="_4E6vPV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vPl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Dual_Accreditation__c" length="255" talendType="id_String" xmi:id="_4E6vP1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vQF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Staff__c" length="18" talendType="id_Double" xmi:id="_4E6vQV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vQl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Customer_Number__c" length="30" nullable="false" talendType="id_String" xmi:id="_4E6vQ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vRF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Customer_ID__c" length="30" talendType="id_String" xmi:id="_4E6vRV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vRl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Institution_ID__c" length="255" talendType="id_String" xmi:id="_4E6vR1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vSF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Institution_Name__c" length="255" talendType="id_String" xmi:id="_4E6vSV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vSl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Certificate_Name__c" length="255" talendType="id_String" xmi:id="_4E6vS1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vTF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Tax_ID__c" length="255" talendType="id_String" xmi:id="_4E6vTV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vTl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="VAT_Number__c" length="255" talendType="id_String" xmi:id="_4E6vT1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vUF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Secondary_Phone__c" length="40" talendType="id_String" xmi:id="_4E6vUV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vUl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Customer_Type__c" length="255" talendType="id_String" xmi:id="_4E6vU1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vVF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Operating_Unit__c" length="18" talendType="id_String" xmi:id="_4E6vVV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vVl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Customer__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vV1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vWF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Expiration__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6vWV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vWl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Primary_Contact__c" length="18" talendType="id_String" xmi:id="_4E6vW1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vXF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Classification__c" length="255" talendType="id_String" xmi:id="_4E6vXV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vXl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Affiliated_With__c" length="4099" precision="4" talendType="id_String" xmi:id="_4E6vX1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vYF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accredited_By__c" length="255" talendType="id_String" xmi:id="_4E6vYV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vYl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Managed_By__c" length="255" talendType="id_String" xmi:id="_4E6vY1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vZF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Bill_To_Account__c" length="18" talendType="id_String" xmi:id="_4E6vZV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vZl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Org_Status__c" length="255" talendType="id_String" xmi:id="_4E6vZ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vaF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Status_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6vaV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6val-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Org_Status__c" length="255" talendType="id_String" xmi:id="_4E6va1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vbF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Status_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6vbV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vbl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="District_Accredited__c" length="255" talendType="id_String" xmi:id="_4E6vb1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vcF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Global_Dimension_1_Code__c" length="255" talendType="id_String" xmi:id="_4E6vcV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vcl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Taxonomy__c" length="32000" talendType="id_String" xmi:id="_4E6vc1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vdF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Territory__c" length="32000" talendType="id_String" xmi:id="_4E6vdV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vdl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accredited_Under_State_Contract__c" length="255" talendType="id_String" xmi:id="_4E6vd1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6veF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accredited_Under_Partnership__c" length="255" talendType="id_String" xmi:id="_4E6veV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vel-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Primary_Contact_Text__c" length="255" talendType="id_String" xmi:id="_4E6ve1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vfF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Billing_Contact_Text__c" length="255" talendType="id_String" xmi:id="_4E6vfV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vfl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Head_of_Institution_Text__c" length="255" talendType="id_String" xmi:id="_4E6vf1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vgF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Partner__c" length="18" talendType="id_String" xmi:id="_4E6vgV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vgl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AccessCode__c" length="6" talendType="id_String" xmi:id="_4E6vg1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vhF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Account_Number__c" length="18" talendType="id_Double" xmi:id="_4E6vhV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vhl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AccreditedBy__c" length="18" talendType="id_String" xmi:id="_4E6vh1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6viF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accredited_By_x__c" length="255" talendType="id_String" xmi:id="_4E6viV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vil-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Active__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vi1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vjF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AgencyAbbreviation__c" length="18" talendType="id_String" xmi:id="_4E6vjV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vjl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AgencyID__c" length="20" talendType="id_String" xmi:id="_4E6vj1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vkF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Applicant__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vkV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vkl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ApplicationStatus__c" length="255" talendType="id_String" xmi:id="_4E6vk1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vlF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="CustomProfile__c" length="255" talendType="id_String" xmi:id="_4E6vlV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vll-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="External_ID__c" length="18" talendType="id_Double" xmi:id="_4E6vl1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vmF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Full_Time_Equivalent_Staff__c" length="18" talendType="id_Double" xmi:id="_4E6vmV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vml-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Groups__c" length="4099" precision="8" talendType="id_String" xmi:id="_4E6vm1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vnF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="JurisdictionName__c" length="255" talendType="id_String" xmi:id="_4E6vnV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vnl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2009_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6vn1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6voF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2010_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6voV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vol-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PartnerAccount__c" length="18" talendType="id_String" xmi:id="_4E6vo1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vpF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PartnerType__c" length="255" talendType="id_String" xmi:id="_4E6vpV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vpl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PhysicalCity__c" length="40" talendType="id_String" xmi:id="_4E6vp1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vqF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PhysicalCountry__c" length="255" talendType="id_String" xmi:id="_4E6vqV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vql-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PhysicalStateProvince__c" length="255" talendType="id_String" xmi:id="_4E6vq1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vrF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PhysicalStreet__c" length="255" talendType="id_String" xmi:id="_4E6vrV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vrl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PhysicalZipPostalCode__c" length="20" talendType="id_String" xmi:id="_4E6vr1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vsF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Accreditation_Status__c" length="255" talendType="id_String" xmi:id="_4E6vsV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vsl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="SEVISMonitored__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vs1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vtF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="StateIdentifier__c" length="20" talendType="id_String" xmi:id="_4E6vtV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vtl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Update_Trigger__c" length="350" talendType="id_String" xmi:id="_4E6vt1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vuF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Using_Parent_Billing_Address__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vuV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vul-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="HOICount__c" length="18" talendType="id_Double" xmi:id="_4E6vu1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vvF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PrimaryCount__c" length="18" talendType="id_Double" xmi:id="_4E6vvV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vvl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="VAT__c" length="25" talendType="id_String" xmi:id="_4E6vv1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vwF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="OperatingUnitNumber__c" length="1300" talendType="id_String" xmi:id="_4E6vwV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vwl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis2_Billing_Address_ID__c" length="18" talendType="id_Double" xmi:id="_4E6vw1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vxF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis2_Mailing_Address_ID__c" length="18" talendType="id_Double" xmi:id="_4E6vxV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vxl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Oasis2_Physical_Address_ID__c" length="18" talendType="id_Double" xmi:id="_4E6vx1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vyF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Copy_Physical_to_Billing__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vyV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vyl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Copy_Physical_to_Mailing__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vy1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vzF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Initial_Accreditation_Date__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6vzV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6vzl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Update_Test__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6vz1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v0F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Created_by_EEM_Feed__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6v0V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v0l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2011_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6v01-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v1F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2012_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6v1V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v1l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2013_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6v11-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v2F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2014_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6v2V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v2l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_2015_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6v21-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v3F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Sales_LCY__c" length="16" talendType="id_Double" xmi:id="_4E6v3V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v3l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Annual_Status__c" length="1300" talendType="id_String" xmi:id="_4E6v31-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v4F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Annual_Accreditation_Billing_Code__c" length="1300" talendType="id_String" xmi:id="_4E6v4V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v4l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PriceBook__c" length="18" talendType="id_String" xmi:id="_4E6v41-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v5F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AccreditationAnnualStatus__c" length="25" talendType="id_String" xmi:id="_4E6v5V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v5l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Annual_Code__c" length="5" talendType="id_String" xmi:id="_4E6v51-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v6F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Annual__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6v6V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v6l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Bill_To__c" length="1300" talendType="id_String" xmi:id="_4E6v61-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v7F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Billing_Account__c" length="18" talendType="id_String" xmi:id="_4E6v7V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v7l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Grandfather__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E6v71-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v8F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Accreditation_Pending__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6v8V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v8l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Org_Status_Notes__c" length="255" talendType="id_String" xmi:id="_4E6v81-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v9F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Org_Status_Reason__c" length="255" talendType="id_String" xmi:id="_4E6v9V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v9l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Actual_Status_Ratification_Meeting__c" length="18" talendType="id_String" xmi:id="_4E6v91-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v-F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Annual_Fee_Invoice__c" length="255" talendType="id_String" xmi:id="_4E6v-V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v-l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="App_Cand__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6v-1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v_F-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Bill_Type__c" length="255" talendType="id_String" xmi:id="_4E6v_V-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6v_l-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Billing_NAV_Company__c" length="1300" talendType="id_String" xmi:id="_4E6v_1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wAF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="ChildrenAccounts__c" length="18" talendType="id_Double" xmi:id="_4E6wAV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wAl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Contract__c" length="18" talendType="id_String" xmi:id="_4E6wA1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wBF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Invoices_Current__c" length="18" talendType="id_Double" xmi:id="_4E6wBV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wBl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Created_in_NAV_Domestic__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wB1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wCF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Created_in_NAV_International__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wCV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wCl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="District_Accredited_2__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wC1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wDF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="District_For_Nav__c" length="1300" talendType="id_String" xmi:id="_4E6wDV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wDl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Domestic_Children_Accounts__c" length="18" talendType="id_Double" xmi:id="_4E6wD1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wEF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Expiration_Year__c" length="18" talendType="id_Double" xmi:id="_4E6wEV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wEl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Head_of_Institution__c" length="18" talendType="id_String" xmi:id="_4E6wE1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wFF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="International_Children_Accounts__c" length="18" talendType="id_Double" xmi:id="_4E6wFV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wFl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="LegalEntity__c" length="255" talendType="id_String" xmi:id="_4E6wF1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wGF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Loss_Pending__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wGV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wGl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="MDE_State_Update__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wG1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wHF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Nav_Company__c" length="1300" talendType="id_String" xmi:id="_4E6wHV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wHl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="OUIsUser__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wH1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wIF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Op_Unit_Report_Name__c" length="1300" talendType="id_String" xmi:id="_4E6wIV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wIl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Parent_Customer_Number__c" length="1300" talendType="id_String" xmi:id="_4E6wI1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wJF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Parent_PriceBook__c" length="1300" talendType="id_String" xmi:id="_4E6wJV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wJl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Parent_Text__c" length="1300" talendType="id_String" xmi:id="_4E6wJ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wKF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PostingGroup__c" length="255" talendType="id_String" xmi:id="_4E6wKV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wKl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PriceBookCountry__c" length="1300" talendType="id_String" xmi:id="_4E6wK1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wLF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PriceBookType__c" length="1300" talendType="id_String" xmi:id="_4E6wLV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wLl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PriceGroup__c" length="1300" talendType="id_String" xmi:id="_4E6wL1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wMF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Primary_Contact_Lookup__c" length="18" talendType="id_String" xmi:id="_4E6wMV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wMl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Processed_for_Renewal__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wM1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wNF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Ratify_Recommendation__c" length="255" talendType="id_String" xmi:id="_4E6wNV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wNl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Rec_Status_Reason__c" length="255" talendType="id_String" xmi:id="_4E6wN1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wOF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Ratification_Meeting__c" length="18" talendType="id_String" xmi:id="_4E6wOV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wOl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Recommended_Status_Notes__c" length="255" talendType="id_String" xmi:id="_4E6wO1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wPF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Region_del__c" length="1300" talendType="id_String" xmi:id="_4E6wPV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wPl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="RelationshipHOI__c" length="25" talendType="id_String" xmi:id="_4E6wP1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wQF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="NAV_Customer_Number__c" length="1300" talendType="id_String" xmi:id="_4E6wQV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wQl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Type_for_Nav__c" length="18" talendType="id_Double" xmi:id="_4E6wQ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wRF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Valid_for_Annual_Invoice__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wRV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wRl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Validate_Date__c" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss'.000Z'&quot;" talendType="id_Date" xmi:id="_4E6wR1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wSF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Validated_By__c" length="25" talendType="id_String" xmi:id="_4E6wSV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wSl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Create_in_NAV_Domestic__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wS1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wTF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Create_in_NAV_International__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wTV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wTl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Include_Parent_D__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wT1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wUF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Include_Parent_I__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wUV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wUl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="PriceBook_Process_Complete__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wU1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wVF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Physical_Location__c" length="1300" talendType="id_String" xmi:id="_4E6wVV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wVl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Parent_OU__c" length="1300" talendType="id_String" xmi:id="_4E6wV1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wWF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Account_Reporting_Name__c" length="1300" talendType="id_String" xmi:id="_4E6wWV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wWl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Opportunity_Institution_Count__c" length="18" talendType="id_Double" xmi:id="_4E6wW1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wXF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Amount_Due__c" length="16" talendType="id_Double" xmi:id="_4E6wXV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wXl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Amount_Unapplied_Credit__c" length="16" talendType="id_Double" xmi:id="_4E6wX1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wYF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Amount_of_Unapplied_Payments__c" length="16" talendType="id_Double" xmi:id="_4E6wYV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wYl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="of_Open_Credit_Memos__c" length="18" talendType="id_Double" xmi:id="_4E6wY1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wZF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="of_Open_Invoices__c" length="18" talendType="id_Double" xmi:id="_4E6wZV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wZl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="of_Open_Payments__c" length="18" talendType="id_Double" xmi:id="_4E6wZ1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6waF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Financia_lNew__c" length="18" talendType="id_Double" xmi:id="_4E6waV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wal-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Invoices3060__c" length="18" talendType="id_Double" xmi:id="_4E6wa1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wbF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Invoices60__c" length="18" talendType="id_Double" xmi:id="_4E6wbV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wbl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Open_Invoice_Status__c" length="1300" talendType="id_String" xmi:id="_4E6wb1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wcF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Data_Quality_Description__c" length="1300" talendType="id_String" xmi:id="_4E6wcV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wcl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Data_Quality_Score__c" length="18" talendType="id_Double" xmi:id="_4E6wc1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wdF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Has_Parent__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wdV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wdl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Plaque_Sent__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wd1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6weF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Use_Legal_Name__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6weV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wel-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Do_Not_Invoice_Reason__c" length="255" talendType="id_String" xmi:id="_4E6we1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wfF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Most_Recent_Log_Note__c" length="18" talendType="id_String" xmi:id="_4E6wfV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wfl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Most_Recent_Log_Note_Ratified__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wf1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wgF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Most_Recent_Log_Note_Status_Type__c" length="1300" talendType="id_String" xmi:id="_4E6wgV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wgl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Nav_Department_Code__c" length="18" talendType="id_Double" xmi:id="_4E6wg1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6whF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="NavEqual__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6whV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6whl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Account_for_Report__c" length="1300" talendType="id_String" xmi:id="_4E6wh1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wiF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Eprove_School_Type__c" length="255" talendType="id_String" xmi:id="_4E6wiV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wil-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="eProve_Elementary_School__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wi1-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wjF-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="eProve_High_School__c" nullable="false" talendType="id_Boolean" xmi:id="_4E6wjV-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E6wjl-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="eProve_Middle_School__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VQF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VQV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="eProve_Unit_School__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VQl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VQ1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Update__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VRF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VRV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Most_Recent_Rec_Meeting__c" length="1300" talendType="id_String" xmi:id="_4E7VRl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VR1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Report_Counter__c" length="18" talendType="id_Double" xmi:id="_4E7VSF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VSV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Parent_Account_Balance__c" length="18" talendType="id_Double" xmi:id="_4E7VSl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VS1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="X2018_Op_Unit_Status__c" length="100" talendType="id_String" xmi:id="_4E7VTF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VTV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="X2018_Op_Unit_Text__c" length="3" talendType="id_String" xmi:id="_4E7VTl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VT1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Account_Stage__c" length="255" talendType="id_String" xmi:id="_4E7VUF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VUV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Charter_School_Authorizer__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VUl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VU1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="BilltoCustNumber__c" length="1300" talendType="id_String" xmi:id="_4E7VVF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VVV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Early_Learning_Stem__c" pattern="&quot;yyyy-MM-dd&quot;" talendType="id_Date" xmi:id="_4E7VVl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VV1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Parent_Actual_O__c" length="1300" talendType="id_String" xmi:id="_4E7VWF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VWV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Sugar_Account_ID__c" length="50" talendType="id_String" xmi:id="_4E7VWl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VW1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Sugar_Migration_Classification__c" length="255" talendType="id_String" xmi:id="_4E7VXF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VXV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="MP_Contract__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VXl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VX1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="MP_Customer_Number__c" length="255" talendType="id_String" xmi:id="_4E7VYF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VYV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Billing_Email_Address__c" length="80" talendType="id_String" xmi:id="_4E7VYl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VY1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="SDOCS_Grade__c" length="1300" talendType="id_String" xmi:id="_4E7VZF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VZV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Withdrawal_Status__c" length="255" talendType="id_String" xmi:id="_4E7VZl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VZ1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Membership__c" length="255" talendType="id_String" xmi:id="_4E7VaF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VaV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Total_Number_of_Children__c" length="18" talendType="id_Double" xmi:id="_4E7Val-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Va1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Nav_Department__c" length="2" talendType="id_String" xmi:id="_4E7VbF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VbV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="CreateFromLeadConversion__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7Vbl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Vb1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Num_Open_Credits__c" length="18" talendType="id_Double" xmi:id="_4E7VcF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VcV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Num_Open_Debits__c" length="18" talendType="id_Double" xmi:id="_4E7Vcl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Vc1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Open_Debit_Amount__c" length="16" talendType="id_Double" xmi:id="_4E7VdF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VdV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Open_Credit_Amount__c" length="16" talendType="id_Double" xmi:id="_4E7Vdl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Vd1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="System_Parent__c" length="18" talendType="id_String" xmi:id="_4E7VeF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VeV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="NAV_Code_Transferred__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7Vel-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Ve1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="AIN_Member_Only__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VfF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VfV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="STEM_Only__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7Vfl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Vf1-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Match__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7VgF-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7VgV-6EeqWwabbsC8AGw"/>
+    </feature>
+    <feature label="Expiration_Match__c" nullable="false" talendType="id_Boolean" xmi:id="_4E7Vgl-6EeqWwabbsC8AGw" xsi:type="TalendMetadata:MetadataColumn">
+      <initialValue xmi:id="_4E7Vg1-6EeqWwabbsC8AGw"/>
+    </feature>
+  </ownedElement>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_45f69271-05f9-40a4-acb1-1dbff1a9152f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ecEIQNExu3Rddqzy68+WkjraS+m8VwrMmaP/1ROdw0f3XYkUXig6VsXMFxVNQeU1NGnnCsDUBg73&#13;
+WXHosR0+NQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3d2c84a2-e4d3-4301-aa80-2f726bf53ef4"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>oD16E9k95fZ5CVbnhJAkIuwKmsN5hx2xq2shUhqBqGUw0Iuevyr3k7TbYC7m+EN6oV2dHNdXzhzx&#13;
+dBRUp+Ogvg==</DigestValue></Reference></SignedInfo><SignatureValue>N5Yg94O61CqLjDCuSUWXTtlYQLCZZxdIAXrRS08FtDzCUbo8AurXMwIzTUdCy2Wjhdj0dCmtSs7n&#13;
+Xoycw3miiZQXY4qoScYPKIMG0L8S8xszR5kTNqlVTEGCAQA5QANn7zBxb1DsSvgNwN3bCRRdND+n&#13;
+PbVElNCLD3vf4oaSXq6oAjcDi5lnu2uxxBgcX3kBrmUM8dwtIYWSAln51Uq/PsvSDO8u1sJOtKeI&#13;
+II8gjvL+JSvbgJ8ho/CfiMBsoX2XFZ8U0SsYkvLpzRmleHm9Cywk4ntyshmWW1zax3AinwYR10pA&#13;
+AAyGKK443F1BLvDFpmqqPWdhcsfyTbVpsrLaqw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3d2c84a2-e4d3-4301-aa80-2f726bf53ef4" Target="#_45f69271-05f9-40a4-acb1-1dbff1a9152f"><Timestamp>2020-10-16 03:15:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendGenericMetadata:GenericConnection>

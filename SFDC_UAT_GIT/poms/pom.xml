@@ -11,6 +11,41 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_institution_phone_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_contacts_profile_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_update_customer_0.1</module>
+    <module>jobs/process/Datawarehouse/sfdwncesmdr_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_institution_affiliations_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_extract_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_update_contact_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_extract_opunits_obsolete_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_update_relationship_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_create_contact_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_eprove_customer_master_0.1</module>
+    <module>jobs/process/sfdcaccreditationlognoteupdate_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_ams_master_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_institution_address_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_accreditation_date_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_contacts_contact_only_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_soltech_sandbox_to_be_deleted_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_create_customer_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_contacts_phone_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_institution_grades_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_create_new_lookup_values_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_upsert_partners_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_extract_to_staging_contact_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_extract_to_staging_relationship_0.1</module>
+    <module>jobs/process/Datawarehouse/sfdwncesmdr_copy_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_passcode_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_contacts_position_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_institution_accredit_0.1</module>
+    <module>jobs/process/demo/onboardingdemojob_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_institution_inst_only_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_extract_to_staging_account_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_update_agency_0.1</module>
+    <module>jobs/process/SDFC_TO_EPROVE_CUSTOMER/sfdc_extract_to_staging_agency_0.1</module>
+    <module>jobs/process/sfdcdesignationupdate_0.1</module>
+    <module>jobs/process/OASIS2_TO_SFDC/sfdc_contacts_address_0.1</module>
   </modules>
   <properties>
     <talend.project.name>SFDC_UAT_GIT</talend.project.name>

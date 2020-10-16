@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TalendMetadata:SalesforceSchemaConnection xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:xmi="http://www.omg.org/XMI" batchSize="250" loginType="basic" moduleName="Account" name="SFAccount_UAT" password="3JWQVROBoLtsGRDplOR/qOCX+A84x6O2+VZbCe/KmpOi3qRirPwt86Y87aJFeM+Y" salesforceVersion="34.0" timeOut="60000" userName="talend@advanc-ed.org.eproveuat" webServiceUrl="https://test.salesforce.com/services/Soap/u/45.0" webServiceUrlTextForOAuth="https://login.salesforce.com/services/oauth2" xmi:id="_v0MyIJ2oEeqq3eZeT23F8g" xmi:version="2.0">
+  <modules id="_vyaCYJ2oEeqq3eZeT23F8g" label="Account" moduleName="Account" xmi:id="_v0MyIZ2oEeqq3eZeT23F8g"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_684f27dd-fa87-4b02-ac42-7dd3602b5419"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>zrDJukeHBgv8ap8lsJOTNEajOwcMXJ6wKPqkS5Usq4wbliiEgMkWR8bgqAdnp2C6ZgTF7ymm5wfG&#13;
+UaqQhsgE4w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e525e06f-402a-48e5-98ec-f58fd2bc21f8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>4/0wfc8eHb4UaWxzVt6WADY3idAPTUBbRZofZBNEFtKZW0u112kdTFL3RSSEykQ69aUHCTxcLJTX&#13;
+IzlluptfYQ==</DigestValue></Reference></SignedInfo><SignatureValue>RrCyn1zCcqfiFMQYesrt2EsvKeBrPDtttnxPH+pkWDG1n6mTeW0gF/MWsmvvGxId993pltF+Zjgr&#13;
+dT770CHpcqTMDwnTyjtSm23IQfSuSkQp88g0o6C6xz8s0WmC5+w/g7gu3Dgu4m7SpUBKHPLTEWtl&#13;
+5MQvugEUcfosrrTSHNUR3cvv3pIaJAhcGuZKCS/LzFOQ1z+wahJ4uqB9HLb0GRm/isDJ8y+kfK0R&#13;
+HKLzlqOHTFl6T8KlfDKKNxkGZ5LQwZldq6mtTa0IA9vdi4qzuRGxMhPBK70NmWx0BlEcKxnBRJLi&#13;
+lIACE0lnvUzHeu0eHNM6ps+vPLdm8PGHuz9nIA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e525e06f-402a-48e5-98ec-f58fd2bc21f8" Target="#_684f27dd-fa87-4b02-ac42-7dd3602b5419"><Timestamp>2020-10-16 03:15:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></TalendMetadata:SalesforceSchemaConnection>
